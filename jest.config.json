@@ -1,7 +1,14 @@
 {
   "transform": {
-    "^.+\\.(t|j)sx?$": "@swc/jest"
+    "^.+\\.(t|j)sx?$": [
+      "@swc/jest",
+      {
+        "jsc": {
+          "target": "es2021"
+        }
+      }
+    ]
   },
-  "testRegex": "/lib/cjs/__tests__/.*\\.(test|spec)\\.(jsx?|tsx?)$",
+  "testRegex": "/dist/esm/__tests__/.*\\.(test|spec)\\.(jsx?|tsx?)$",
   "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
 }

@@ -1,6 +1,6 @@
 # @codrjs/logger
 
-![npm version](https://img.shields.io/npm/v/@codrjs/logger)
+[![npm version](https://img.shields.io/npm/v/@codrjs/logger)](https://www.npmjs.com/package/@codrjs/logger)
 [![CodeQL](https://github.com/CodrJS/logger/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/CodrJS/logger/actions/workflows/codeql.yml)
 
 ## Purpose
